@@ -34,7 +34,7 @@ textoverimage{
 
 main{
   background-color: rgb(62, 77, 79);
-  color:rgb(40, 157, 112)
+  color:rgb(119, 184, 139)
 }
 
 #LeftAlignedSubTitles{
@@ -135,7 +135,7 @@ footer {
     flex-direction: column;
   }
 
-  h1{
+  main h1{
     font-size: 200%;
   }
   .headerlinks{
