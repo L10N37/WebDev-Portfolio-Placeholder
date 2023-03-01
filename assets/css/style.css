@@ -81,9 +81,13 @@ footer {
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 925px) {
   header {
     flex-direction: column;
+  }
+
+  .headerlinks{
+    font-size: 150%;
   }
 
   main {
