@@ -94,3 +94,18 @@ footer {
     max-width: 1200px;
   }
 }
+
+
+@media screen and (max-width: 589px) {
+  header {
+    flex-direction: column;
+  }
+
+  .headerlinks{
+    font-size: 125%;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
