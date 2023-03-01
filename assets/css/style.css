@@ -32,6 +32,11 @@ textoverimage{
   padding: 12px;
 }
 
+main{
+  background-color: rgb(62, 77, 79);
+  color:rgb(5, 61, 39)
+}
+
 #LeftAlignedSubTitles{
 position: absolute;
 left: 6px;
