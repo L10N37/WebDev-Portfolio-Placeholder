@@ -34,7 +34,7 @@ textoverimage{
 
 main{
   background-color: rgb(62, 77, 79);
-  color:rgb(5, 61, 39)
+  color:rgb(40, 157, 112)
 }
 
 #LeftAlignedSubTitles{
@@ -59,8 +59,10 @@ left: 6px;
   color:rgb(8, 8, 8);
 }
 
-h1{
+main h1{
   font-size: 350%;
+  padding-right: 16px;
+  border-right: solid rgb(40, 157, 112);
 }
 
 header h1 {
