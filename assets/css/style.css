@@ -101,17 +101,16 @@ header h1 {
   background-position: center;
 }
 
-.selfie{
-  height: 100%;
+#selfie{
+ 
+  background-image: url("../images/PlaceHolderAshKetchum.jpg");
   position: absolute;
-  left: 16PX;
   top: 128px;
-  background-image: url("../images/Selfie.png");
-  height: 250px;
+  left: 16PX;
+  height: 300px;
   width: 25%;
   background-size: cover;
   background-position: center;
-  float: left;
 }
 
 textoversurf{
@@ -192,13 +191,31 @@ footer {
     font-size: 100%;
     }
 
-  .selfie{
-    top: 256px;
+  #selfie{
+    top: 160px;
   }
 
   textoverimage{
    top: 50%;
   }
+}
+
+@media screen and (max-width: 1165px) {
+  header {
+    flex-direction: column;
+  }
+
+  .headerlinks{
+    font-size: 150%;
+  }
+
+  #selfie{
+    top: 220px;
+  }
+
+  main h1{
+    font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 925px) {
@@ -209,7 +226,6 @@ footer {
   .headerlinks{
     font-size: 150%;
   }
-
 
   main h1{
     font-size: 80%;
@@ -237,6 +253,11 @@ footer {
   main h1{
   font-size: 40%;
   }
+
+  #selfie{
+    top: 260px;
+  }
+
 }
 
 
