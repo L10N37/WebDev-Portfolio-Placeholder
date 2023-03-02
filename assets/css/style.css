@@ -106,6 +106,20 @@ footer {
 }
 
 /* Mobile resolution area - need to optimise */
+@media screen and (max-width: 1768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .headerlinks{
+    font-size: 150%;
+  }
+
+  main h1{
+    font-size: 100%;
+    }
+}
+
 @media screen and (max-width: 925px) {
   header {
     flex-direction: column;
@@ -115,38 +129,13 @@ footer {
     font-size: 150%;
   }
 
-  main {
-    max-width: 1200px;
-  }
 
   main h1{
-    font-size: 50%;
+    font-size: 80%;
     }
 }
 
-@media screen and (max-width: 589px) {
-  header {
-    flex-direction: column;
-  }
-
-  .headerlinks{
-    font-size: 125%;
-  }
-
-  main {
-    max-width: 1200px;
-  }
-
-  main h1{
-  font-size: 50%;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-
   main h1{
     font-size: 200%;
   }
@@ -154,12 +143,21 @@ footer {
     font-size: 125%;
   }
 
-  main {
-    max-width: 1200px;
+  main h1{
+    font-size: 80%;
+    }
+
+@media screen and (max-width: 589px) {
+
+  .headerlinks{
+    font-size: 80%;
   }
 
   main h1{
-    font-size: 50%;
-    }
+  font-size: 40%;
+  }
+}
+
+
 }
 
