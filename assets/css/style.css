@@ -133,8 +133,30 @@ textoversurf{
   width: 100%;
   background-size: cover;
   background-position: center;
-
 }
+
+.workplacehold2{
+  position: relative;
+  background-image: url("../images/SandyBeach.jpg");
+  height: 150px;
+  border: solid var(--bg);
+  border-width: var(--borderthickness);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.workplacehold3{
+  position: relative;
+  background-image: url("../images/SandyBeach.jpg");
+  height: 150px;
+  border: solid var(--bg);
+  border-width: var(--borderthickness);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
 
 h2 {
   margin: 2% 0;
