@@ -1,12 +1,11 @@
+/*  TO DO: proper resolution optimisation for common devices/ resolutions 
+      Site needs to maintain legibility across different screen sizes
+*/
 :root {
   /* styling variables */
   --bg: rgb(87, 122, 123);
   --common: rgb(40, 157, 112);
   --borderthickness: 5px;
-}
-
-body {
-  background-color: var(--BGColour);
 }
 
 headerlinks{
@@ -23,6 +22,9 @@ a{
   color:rgb(8, 8, 8);
 }
 
+twocardrow{
+  display: inline-flex;
+}
 
 textoverimage{
   font-size: 2.5em;
@@ -35,8 +37,11 @@ textoverimage{
 }
 
 main{
-  background-color: rgb(62, 77, 79);
   color:rgb(119, 184, 139)
+}
+
+body{
+  background-color:rgb(62, 77, 79);;
 }
 
 #LeftAlignedSubTitles{
@@ -48,15 +53,6 @@ left: 6px;
  margin-left: 15%;
  margin-right: 15%
 }
-
-
-/*not used */
-#card1{
-  margin-left: 1%;
-  margin-right: -35%
-}
-/* delete if not used */
-
 
 article{
   border-left: solid var(--bg);
@@ -132,6 +128,7 @@ textoversurf{
   width: 100%;
   background-size: cover;
   background-position: center;
+  
 }
 
 .workplacehold2{
@@ -140,9 +137,11 @@ textoversurf{
   height: 150px;
   border: solid var(--bg);
   border-width: var(--borderthickness);
-  width: 50%;
+  width: 49.5%;
   background-size: cover;
   background-position: center;
+  display: inline-flex;
+  float: left;
 }
 
 .workplacehold3{
@@ -151,11 +150,13 @@ textoversurf{
   height: 150px;
   border: solid var(--bg);
   border-width: var(--borderthickness);
-  width: 50%;
+  width: 49.5%;
   background-size: cover;
   background-position: center;
+  display: inline-flex;
+  float: right;
+  
 }
-
 
 h2 {
   margin: 2% 0;
