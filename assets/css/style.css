@@ -50,14 +50,22 @@ left: 6px;
  margin-right: 15%
 }
 
+
+/*not used */
 #card1{
   margin-left: 1%;
   margin-right: -35%
 }
+/* delete if not used */
+
 
 article{
   border-left: solid var(--common);
   padding-left: 16px;
+}
+
+.relative{
+  position: relative;
 }
 
 .headerlinks{
@@ -99,7 +107,7 @@ header h1 {
   height: 150px;
   border: solid var(--common);
   border-width: var(--borderthickness);
-  width: 75%;
+  width: 100%;
   background-size: cover;
   background-position: center;
 
