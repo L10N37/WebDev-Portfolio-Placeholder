@@ -101,6 +101,19 @@ header h1 {
   background-position: center;
 }
 
+.selfie{
+  height: 100%;
+  position: absolute;
+  left: 16PX;
+  top: 128px;
+  background-image: url("../images/Selfie.png");
+  height: 250px;
+  width: 25%;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
 textoversurf{
   position: absolute;
   font-size: 2.5em;
@@ -156,6 +169,14 @@ footer {
   main h1{
     font-size: 100%;
     }
+
+  .selfie{
+    top: 256px;
+  }
+
+  textoverimage{
+   top: 50%;
+  }
 }
 
 @media screen and (max-width: 925px) {
