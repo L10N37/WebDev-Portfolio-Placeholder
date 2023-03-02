@@ -2,6 +2,8 @@
 :root {
   /* styling variables */
   --bg: rgb(87, 122, 123);
+  --common: rgb(40, 157, 112);
+  --borderthickness: 5px;
 }
 
 body {
@@ -20,6 +22,10 @@ header {
 
 a{
   color:rgb(8, 8, 8);
+}
+
+.card1{
+
 }
 
 textoverimage{
@@ -44,10 +50,16 @@ left: 6px;
 
 .leftindent{
  margin-left: 15%;
+ margin-right: 15%
+}
+
+#card1{
+  margin-left: 1%;
+  margin-right: -35%
 }
 
 article{
-  border-left: solid rgb(40, 157, 112);
+  border-left: solid var(--common);
   padding-left: 16px;
 }
 
@@ -83,6 +95,17 @@ header h1 {
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.surf{
+  background-image: url("../images/SandyBeach.jpg");
+  height: 150px;
+  border: solid var(--common);
+  border-width: var(--borderthickness);
+  width: 75%;
+  background-size: cover;
+  background-position: center;
+
 }
 
 h2 {
