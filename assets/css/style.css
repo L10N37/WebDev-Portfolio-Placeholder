@@ -59,12 +59,10 @@ left: 6px;
  margin-left: 15%;
 }
 
-
 section{
   border-left: solid var(--bg);
   padding-left: 16px;
 }
-
 
 .relative{
   position: relative;
