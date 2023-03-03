@@ -22,14 +22,6 @@ a{
   color:rgb(8, 8, 8);
 }
 
-b{
-
-}
-
-twocardrow{
-  display: inline-flex;
-}
-
 textoverimage{
   position: absolute;
   font-size: 2.5em;
@@ -254,90 +246,7 @@ footer {
 }
 
 /* Mobile resolution area - need to optimise */
-@media screen and (max-width: 1768px) {
-  header {
-    flex-direction: column;
-  }
-  main h1{
-    font-size: 290%;
-    }
+@media (max-width: 480px) {
 
-  #selfie{
-    top: 160px;
-  }
-
-}
-
-@media screen and (max-width: 1544px) {
-  header {
-    flex-direction: column;
-  }
-
-  #selfie{
-    top: 225px;
-  }
-
-  main h1{
-    font-size: 250%;
-    }
-}
-
-
-@media screen and (max-width: 1281px) {
-  main h1{
-    font-size: 225%;
-    }
-}
-
-
-@media screen and (max-width: 1165px) {
-  main h1{
-    font-size: 200%;
-    }
-}
-
-@media screen and (max-width: 1042px) {
-  main h1{
-    font-size: 180%;
-    }
-}
-
-
-@media screen and (max-width: 935px) {
-  main h1{
-    font-size: 150%;
-    }
-
-.headerlinks{
-  font-size: 150%;
-}
-
-textoverimage{
- top: 500px;
- left: 400px;
-}
-
-}
-
-@media screen and (max-width: 768px) {
-  main h1{
-    font-size: 125%;
-  }
-
-  main h1{
-    font-size: 90%;
-    }
-
-}
-
-@media screen and (max-width: 589px) {
-
-  .headerlinks{
-    font-size: 125%;
-  }
-
-  #selfie{
-    top: 260px;
-  }
 
 }
