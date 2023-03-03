@@ -22,6 +22,10 @@ a{
   color:rgb(8, 8, 8);
 }
 
+b{
+
+}
+
 twocardrow{
   display: inline-flex;
 }
@@ -50,14 +54,19 @@ left: 6px;
 }
 
 .leftindent{
+ padding: 16px;
  margin-left: 15%;
- margin-right: 15%
 }
 
+/*
 article{
   border-left: solid var(--bg);
   padding-left: 16px;
 }
+*/
+
+
+
 
 .relative{
   position: relative;
@@ -76,8 +85,25 @@ article{
   color:rgb(8, 8, 8);
 }
 
+.contactlinks{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  display: inline-flex;
+  column-gap: 30px;
+  padding-top: 42px;
+  height: 100px;
+  line-height: 1.5px;
+  text-underline-offset: 7px;
+  font-weight: bold;
+  color:var(--common)
+}
+
+#altlinkcolour{
+  color:var(--common)
+}
+
 main h1{
-  font-size: 350%;
+  font-size: 300%;
   padding-right: 16px;
 }
 
@@ -98,18 +124,18 @@ header h1 {
 }
 
 #selfie{
- 
+  border-radius: 16px;
   background-image: url("../images/PlaceHolderAshKetchum.jpg");
   position: absolute;
   top: 128px;
   left: 16PX;
-  height: 300px;
+  height: 35%;
   width: 25%;
   background-size: cover;
   background-position: center;
 }
 
-textoversurf{
+textoverwork1{
   position: absolute;
   font-size: 2.5em;
   color: white;
@@ -119,7 +145,32 @@ textoversurf{
   padding: 12px;
 }
 
-.surf{
+
+
+/*Identical Classes */
+textoverwork2{
+  position: absolute;
+  font-size: 2.5em;
+  color: white;
+  top: 35%;
+  left: -1px;
+  background-color: var(--bg);
+  padding: 12px;
+}
+
+textoverwork3{
+  position: absolute;
+  font-size: 2.5em;
+  color: white;
+  top: 35%;
+  left: -1px;
+  background-color: var(--bg);
+  padding: 12px;
+}
+/*Identical Classes */
+
+
+.workplacehold1{
   position: relative;
   background-image: url("../images/SandyBeach.jpg");
   height: 150px;
@@ -132,30 +183,59 @@ textoversurf{
 }
 
 .workplacehold2{
+  margin-top: 6px;
   position: relative;
   background-image: url("../images/SandyBeach.jpg");
   height: 150px;
   border: solid var(--bg);
   border-width: var(--borderthickness);
-  width: 49.5%;
+  width: 49.7%;
   background-size: cover;
   background-position: center;
-  display: inline-flex;
   float: left;
 }
 
 .workplacehold3{
+  margin-top: 6px;
   position: relative;
   background-image: url("../images/SandyBeach.jpg");
   height: 150px;
   border: solid var(--bg);
   border-width: var(--borderthickness);
-  width: 49.5%;
+  width: 49.7%;
   background-size: cover;
   background-position: center;
-  display: inline-flex;
   float: right;
-  
+}
+
+.workplacehold4{
+  margin-bottom: 50px;
+  margin-top: 6px;
+  margin-bottom: 50px;
+  position: relative;
+  background-image: url("../images/SandyBeach.jpg");
+  height: 150px;
+  border: solid var(--bg);
+  border-width: var(--borderthickness);
+  width: 49.7%;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.workplacehold5{
+  margin-bottom: 50px;
+  margin-top: 6px;
+  margin-bottom: 50px;
+  position: relative;
+  background-image: url("../images/SandyBeach.jpg");
+  height: 150px;
+  border: solid var(--bg);
+  border-width: var(--borderthickness);
+  width: 49.7%;
+  background-size: cover;
+  background-position: center;
+  float: right;
 }
 
 h2 {
@@ -184,7 +264,7 @@ footer {
     flex-direction: column;
   }
   main h1{
-    font-size: 300%;
+    font-size: 290%;
     }
 
   #selfie{
